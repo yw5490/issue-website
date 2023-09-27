@@ -70,3 +70,12 @@ img {
 h1 {
     text-align: left;
 }
+
+li {
+    margin: 5px 0;
+}
+
+.bulletContent {
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+}
