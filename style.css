@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Skranji&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: #e1f1fd;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navigation {
+    /* max-height referenced from: https://www.w3schools.com/cssref/pr_dim_max-height.php */
+    max-height: 100%;
+    left: 0px;
+    padding: 30px;
+    padding-top: 150px;
+    top: 0px;
+    background-color: #9ABDDC;
+    display: flex;
+    /* flex-direction referenced from: https://www.w3schools.com/cssref/css3_pr_flex-direction.php */
+    flex-direction: column;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;      /* Remove the underline decoration of an a tag. */
+    color: #1C1D1E;
+    background-color: #e1f1fd;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.content {
+    /* flex-grow referenced from: https://www.w3schools.com/cssref/css3_pr_flex-grow.php */
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items referenced from: https://www.w3schools.com/cssref/css3_pr_align-items.php */
+    align-items: center;
+}
+
+img {
+    max-width: 50%;
+}
+
+#homeTitle {
+    text-align: center;
+}
+
+/* hover referenced from: https://www.w3schools.com/cssref/sel_hover.php */
+.button:hover {
+    background-color: #c1d8f0;
+}
+
+.textContent {
+    display: block;
+    max-width: 70%;
+    font-size: larger;
+    color: #1C1D1E;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: left;
+}
